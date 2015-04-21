@@ -1,0 +1,96 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>M41 Ltd</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+
+        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!--#include virtual="../includes/nav.html" -->
+        <div class="container">
+            <h1>Photo Gallery</h1>
+
+            <p>There are a number of striking images used on this website. Most
+                of the images can be found on Flickr and are
+                provided under the terms of the Creative Commons licence. Some require
+                attribution.<br> Regardless of whether attribution is required by the licence I feel
+                the creators of all the images used should be acknowledged.<br>
+                Selecting any of the thumbnail images will link to the originals on the web. 
+            </p>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://www.flickr.com/photos/29159666@N05/5214804647" title="light by Emmet &amp; Kathy, on Flickr">
+                        <img src="https://farm6.staticflickr.com/5244/5214804647_2c51626f9b_o.jpg" class="thumbnail" width="150" height="150" alt="light">
+                        <p>Light by Emmet &amp; Kathy, on Flickr</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.flickr.com/photos/frosch50/9460643278" title="Fire Games by Georgie Pauwels, on Flickr">
+                        <img src="https://farm8.staticflickr.com/7430/9460643278_fb565543c1_q.jpg" class="thumbnail" width="150" height="150" alt="Fire Games">
+                        <p>Fire Games by Georgie Pauwels, on Flickr</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.flickr.com/photos/123025819@N03/15928417087" title="Bluff - Osaka,Japan by ＊Jin Mikami＊, on Flickr">
+                        <img src="https://farm9.staticflickr.com/8670/15928417087_fc3d889c80_q.jpg" class="thumbnail" width="150" height="150" alt="Bluff - Osaka,Japan">
+                        <p>Bluff - Osaka,Japan by ＊Jin Mikami＊, on Flickr</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <img src="../img/fieldBW.jpg" class="thumbnail" width="150" height="150" title="Unknown" alt="Field">
+                    <p>Unknown</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="../img/mountainsBW.jpg" class="thumbnail" width="150" height="150" title="Unknown" alt="Mountains">
+                    <p>Unknown</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.flickr.com/photos/pavdw/16765181687" title="Waiting For Spring by Paul VanDerWerf, on Flickr">
+                        <img src="https://farm8.staticflickr.com/7633/16765181687_d99c16a935_q.jpg" class="thumbnail" width="150" height="150" alt="Waiting For Spring">
+                        <p>Waiting For Spring by Paul VanDerWerf, on Flickr</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p>&copy; M41 Ltd 2015</p>
+            </footer>
+        </div> <!-- /container -->
+        <!--#include virtual="../includes/footer.html" -->
+    </body>
+</html>

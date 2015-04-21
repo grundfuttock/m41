@@ -1,0 +1,75 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Non-Profit</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+
+        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<!--#include virtual="../includes/nav.html" -->
+        <div class="container">
+            <div class="jumbotron">
+                <div class="container">
+                    <img class="img-responsive" src="../img/light-emmetandkathy920x442.jpg" title="light by Emmet &amp; Kathy, on Flickr" alt="light">
+                    <p>I have a strong belief in "fairness".<br/>I believe that
+                        everyone should be treated equally whether by
+                        the private or public sector.</p>      
+                </div>
+            </div>
+            <p>With more and more services being delivered online, there is a significant
+                section of the population who are being excluded. At the same time
+                there is huge growth in low-cost devices capable
+                of accessing those services (tablets and Smartphones).</p>
+            <p>I am currently helping Trafford Libraries improve their digital inclusivity.</p>
+            <p>In early 2014 I proposed a new service to help people make use of smartphones
+                and tablet PCs. I set up the service, deliver it, and coordinate
+                other volunteers. This has now expanded
+                to cover a variety of topics all related to helping and motivating
+                people to get the benefits that the internet offers.</p>
+            <p>I am interested in expanding this work. I can offer non-profit organisations :
+            <ul>
+                <li>Advice sessions to clients on topics such as Introductions to
+                    <ul>
+                        <li>Smartphones or tablet PCs</li>
+                        <li>Windows Desktops / Laptops</li>
+                        <li>E-mail</li>
+                        <li>Searching and using the web</li>
+                        <li>Online safety</li>
+                    </ul>
+                </li>
+                <li>Help to provide volunteers with the confidence to deliver the above sessions</li>
+                <li>Background on government's "Digital by Design" strategy</li>
+                <li>Background on the digitally excluded</li>
+                <li>The consultancy services offered elsewhere on this site (Web development etc).</li>
+                <li>A professional approach to reaching your goals</li>
+            </ul>
+            <hr>
+
+            <footer>
+                <p>&copy; M41 Ltd 2015</p>
+            </footer>
+        </div> <!-- /container -->
+        <!--#include virtual="../includes/footer.html" -->
+    </body>
+</html>

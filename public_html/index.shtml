@@ -1,0 +1,74 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>M41 Ltd</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!--#include file="includes/nav.html" -->
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <img class="img-responsive" src="img/mountainsBW.jpg" alt="mountains">
+                <h1>Websites and technologies</h1>
+                <p>Harness the power of the web to serve your needs</p>
+                <p><a class="btn btn-primary btn-lg" href="pages/commercial.shtml" role="button">Learn more &raquo;</a></p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>What</h2>
+                    <p>I can advise, design or develop web sites or web based
+                        applications to your requirements.</p>
+                    <p>Whether you are looking for a simple site to advertise
+                        your small business, charity or other organisation, a blog
+                        site which stands out, a site to promote your band and track
+                        downloads (and purchases), or a full-blown Web Application
+                        linked to  databases and e-commerce, I can help you
+                    </p>
+                    <p>I am also involved in providing Digital Inclusion support
+                        on a non profit-making basis.</p>
+                    <p><a class="btn btn-default" href="pages/commercial.shtml" role="button">View details &raquo;</a></p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Why</h2>
+                    <p>With over forty years experience in the IT industry, I enjoy
+                        providing crafted solutions to business issues. Whether
+                        that involves developing a bespoke or tailored creation,
+                        advice on the current state of the industry or just advice
+                        on implementing an “off the peg” package. </p>
+                    <p><a class="btn btn-default" href="pages/about.shtml" role="button">View details &raquo;</a></p>
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p>&copy; M41 Ltd 2015</p>
+            </footer>
+        </div> <!-- /container -->
+        <!--#include file="includes/footer.html" -->
+    </body>
+</html>

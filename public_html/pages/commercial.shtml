@@ -1,0 +1,75 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>M41 Details</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="../css/bootstrap-theme.css">
+        <link rel="stylesheet" href="../css/main.css">
+
+        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<!--#include virtual="../includes/nav.html" -->
+        <div class="container">
+            <div class="jumbotron">
+                <div class="container">
+                    <img class="img-responsive" src="../img/bluff-jinmikami1600x900.jpg" alt="Bluff Osaka - Jin Mikami">
+                    <h1>What</h1>
+                    <p>With over forty years experience in the IT industry, I enjoy
+                        providing crafted solutions to business issues.
+                        Whether that involves developing a bespoke or tailored
+                        creation, advice on the current state of the industry
+                        or just advice on implementing an “off the peg” package.</p>
+                    <p>I am always interested in discussing how I could help.
+                        If we find that I am unable to help, then I may be able
+                        to provide some insight into your requirements and at least you will
+                        have a better understanding of what I can offer in future. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Advice / Consultancy</h1>
+                    <p>With over forty years experience in the IT industry, I can
+                        provide unique insights. Whether that is advice on the
+                        current state of the industry or just advice on implementing
+                        an “off the peg” package.</p>
+                    <p>With my more recent volunteering experience I am now also
+                        in a position to offer advice
+                        on "Digital Inclusion" to organisations </p>
+                    <p><a class="btn btn-primary btn-sm" href="consultancy.shtml" role="button">Learn more &raquo;</a></p>
+                </div>
+                <div class="col-md-6">
+                    <h1>Development</h1>
+                    <p>I enjoy providing crafted solutions to business issues,
+                        whether that involves developing a bespoke website / application
+                        or tailoring an existing package</p>
+                    <p><a class="btn btn-primary btn-sm" href="implementation.shtml" role="button">Learn more &raquo;</a></p>
+                </div>
+            </div>
+            <hr>
+
+            <footer>
+                <p>&copy; M41 Ltd 2015</p>
+            </footer>
+        </div> <!-- /container -->
+        <!--#include virtual="../includes/footer.html" -->
+    </body>
+</html>

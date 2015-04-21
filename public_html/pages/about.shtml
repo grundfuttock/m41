@@ -1,0 +1,64 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>M41 About</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="../css/bootstrap-theme.css">
+        <link rel="stylesheet" href="../css/main.css">
+
+        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+Before
+<!--#include virtual="../includes/nav.html" -->
+after
+        <div class="container">
+            <div class="jumbotron">
+                <div class="container">
+                    <img class="img-responsive" src="../img/fieldBW.jpg" alt="field with trees">
+                    <h1>Why</h1>
+                    <p>I have over forty years experience in the IT industry, from system level device-drivers to enterprise sales
+                        through consultancy, project and line management</p>
+                </div>
+            </div>
+            <h1>Background</h1>
+            <p>Following my degree in Computation at Manchester university, I have been working in IT since 1976. From writing industrial control systems in assembler
+                through project management to sales and team management. For more details, a <a href="downloads.shtml">copy of of my CV</a> is available to view or download.</p>
+            <p>In 2005 I left IT and ran my own (non-IT related) business.</p>
+            <p>More recently I have rediscovered the joy in developing solutions that are elegant, simple and effective.</p>
+            <p>As an aside, a comparison of programming in the 1970s to the current day shows that, while complexity has increased significantly,
+                the toolset available has improved immeasurably.</p>
+            <p> Another significant change is in the number of people employed in development and a new culture
+                of openness. Although this has changed the pioneering nature of programming to one of building from existing components,
+                the underlying joy of blending order with creativity remains.</p>
+            <p>Since 2013 I have been complementing my IT skills with volunteer work for Trafford council, providing advice
+            on Digital Inclusion and delivering introductory IT sessions to Trafford residents.</p>
+            <a href="downloads.html">View or download a copy of my CV</a>
+
+            <hr>
+
+            <footer>
+                <p>&copy; M41 Ltd 2015</p>
+            </footer>
+        </div> <!-- /container -->
+        <!--#include virtual="../includes/footer.html" -->
+    </body>
+</html>
