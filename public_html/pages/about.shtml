@@ -10,7 +10,7 @@
         <meta name="description" content="M41 Web design, application development,
               digital inclusion background">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="../tile.png">
 
         <link rel="stylesheet" href="../css/bootstrap.css">
         <style>
@@ -52,7 +52,7 @@ after
                 the underlying joy of blending order with creativity remains.</p>
             <p>Since 2013 I have been complementing my IT skills with volunteer work for Trafford council, providing advice
             on Digital Inclusion and delivering introductory IT sessions to Trafford residents.</p>
-            <a href="downloads.html">View or download a copy of my CV</a>
+            <a href="downloads.shtml">View or download a copy of my CV</a>
 
             <hr>
 

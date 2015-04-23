@@ -9,7 +9,7 @@
         <title>M41 - Private Developments</title>
         <meta name="description" content="M41, application development">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="tile.png">
 
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <style>
