@@ -59,7 +59,11 @@
                         <li>Java</li>
                         <li>Ubuntu</li>
                         <li>SQL</li>
-                        <li>SVN version control</li>
+                        <li>Version control</li>
+                        <ul>
+                            <li>GIT</li>
+                            <li>SVN</li>
+                        </ul>
                     </ul>
                     <h1>Legacy application development</h1>
                     <p>The languages and Operating systems listed below represent just some of the
