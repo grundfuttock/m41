@@ -31,7 +31,7 @@
         <!--#include virtual="../includes/nav.html" -->
         <div class="container">
             <div class="jumbotron">
-            <img class="pull-left" src="../img/tree-paul-vanderwerf.jpg" alt="tree" style="width: 150px; height: 150px; padding-right: 10px">
+            <img class="pull-left" src="../img/tree-paul-vanderwerf150x165.jpg" alt="tree" style="width: 150px; height: 150px; padding-right: 10px">
             <h1> Advice<small> delivered <strong>to</strong> you or <strong>for</strong> you</small></h1>
             </div>
             <div class="row">

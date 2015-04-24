@@ -32,6 +32,7 @@
         <div class="container">
             <p></p>
             <div class="jumbotron">
+                <img class="img-responsive" src="../img/machu_pichu_geraint_rowland919x251.jpg" alt="machu pichu">
                 <p class="lead text-center">Here's a summary of the knowledge, skills and tools
                     I can bring to bear to develop a solution for you.</p>
             </div>
