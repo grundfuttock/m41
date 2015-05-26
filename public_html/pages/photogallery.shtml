@@ -72,13 +72,16 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                        <a href="https://www.flickr.com/photos/geezaweezer/15054312108" title="Morning Rays, Machu Picchu by Geraint Rowland, on Flickr">
-                            <img src="https://farm4.staticflickr.com/3900/15054312108_efc5c167db_q.jpg" class="thumbnail" width="150" height="150" alt="Morning Rays, Machu Picchu">
-                            <p>Morning Rays, Machu Picchu by Geraint Rowland, on Flickr</p>
-                        </a>
+                    <a href="https://www.flickr.com/photos/geezaweezer/15054312108" title="Morning Rays, Machu Picchu by Geraint Rowland, on Flickr">
+                        <img src="https://farm4.staticflickr.com/3900/15054312108_efc5c167db_q.jpg" class="thumbnail" width="150" height="150" alt="Morning Rays, Machu Picchu">
+                        <p>Morning Rays, Machu Picchu by Geraint Rowland, on Flickr</p>
+                    </a>
                 </div>
                 <div class="col-md-4">
-
+                    <a href="https://www.flickr.com/photos/bjkelly/11520551576" title="Flight Director by Brian Kelly, on Flickr">
+                        <img src="https://c1.staticflickr.com/3/2816/11520551576_a2aa034719_q.jpg" class="thumbnail" width="150" height="150" alt="Flight Director">
+                        <p>Flight Director by Brian Kelly, on Flickr</p>
+                    </a>
                 </div>
                 <div class="col-md-4">
 
