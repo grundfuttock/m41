@@ -84,10 +84,16 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-
+                    <a href="https://www.flickr.com/photos/thesaccattack/4946618207" title="From the Height of Broadway by Steven Saccomanno, on Flickr">
+                        <img src="https://c1.staticflickr.com/5/4112/4946618207_8c272b98bb_q.jpg" class="thumbnail" width="150" height="150" alt="From the Height of Broadway">
+                        <p>From the Height of Broadway by Steven Saccomanno, on Flickr</p>
+                    </a>
                 </div>
                 <div class="col-md-4">
-
+                    <a href="https://www.flickr.com/photos/9479603@N02/3311745151" title="Unix Creators at DEC PDP11 by PanelSwitchman, on Flickr">
+                        <img src="https://c2.staticflickr.com/4/3592/3311745151_830512a003_q.jpg" class="thumbnail" width="150" height="150" alt="Unix Creators at DEC PDP11">
+                        <p>Unix Creators at DEC PDP11 by PanelSwitchman, on Flickr</p>
+                    </a>
                 </div>
             </div>
 
