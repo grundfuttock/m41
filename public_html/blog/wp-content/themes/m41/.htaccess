@@ -1,0 +1,4 @@
+AddType text/html .shtml
+AddOutputFilter INCLUDES .shtml
+DirectoryIndex index.php
+Options +IncludesNoExec -ExecCGI

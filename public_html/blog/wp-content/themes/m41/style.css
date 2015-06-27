@@ -1,0 +1,15 @@
+/*
+Theme Name: m41
+Theme URI: http://m41.co.uk
+Description: A handrolled WordPress Twitter Bootstrap theme based on the tutorial at http://www.charityandbiscuits.com
+Version: 1.0
+Tags: responsive, white, bootstrap
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+*/
+@import URL ('http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic');
+@import URL ('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
+@import URL ('http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+@import URL ('css/bootstrap.min.css');
+@import URL ('css/clean-blog.css');
+@import URL ('css/main.css');
