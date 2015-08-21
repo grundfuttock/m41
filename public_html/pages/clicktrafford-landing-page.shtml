@@ -3,6 +3,18 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <!--
+    Page written as a temporary landing page for the Trafford libraries tablet devices (HUDL2s).
+    The devices have a captive (kiosk) browser which has no address bar.
+    This page provides a clickable button linking to Google search page.
+    As M41.co.uk uses HTTP: rather than HTTPS: the council's wifi redirect will not get rejected
+    as if the home page were set to Google.
+    The page has been superceded by
+    http://clicktrafford.org/trafford-libraries-wi-fi-tablet-home-page
+    
+    Author: Geoff Newell
+    Date: August 2015
+    -->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -52,22 +64,33 @@
                     <p>Tap this button to be taken to the Google Search Page</p>
                 </div>
                 <div class="col-md-2 col-md-offset-0">
+                    <span style="padding-top: 20px; display: inline-block ">
                     <a class="btn btn-lg btn-danger" href="https://www.google.co.uk/" role="button">Google Search</a>
+                    </span>
                 </div>
             </div>
             <hr>
-<!-- add in an address bar (work in progress
+
             <div class="row">
-                <div class="col-md-4 col-md-offset-0">
+                <div class="col-md-6 col-md-offset-2">
                     <h1>Web Address</h1>
-                    <p>type a full address (http://)</p>
-                </div>
-                <div class="col-md-8 col-md-offset-0">
-                    <input type="url" class="form-control" placeholder="web address">
-                </div>
+                    <p>If you have a specific web address (URL) type it in this box. Remember to include the "http://"</p>
+                    <div class="input-group">
+                        <input id="go-addr" type="url" class="form-control" placeholder="http://webaddress">
+                        <span class="input-group-btn">
+                            <button id="go-btn" class="btn btn-default" type="button" onclick="goAddress()">Go!</button>
+                            <script>
+                                function goAddress() {
+                                    var link= document.getElementById('go-addr');
+                                    // alert(link.value);
+                                    location.assign(link.value);
+                                }
+                            </script>
+                        </span>
+                    </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
             </div>
             <hr>
--->
             <footer>
                 <p>&copy; M41 Ltd 2015</p>
             </footer>
