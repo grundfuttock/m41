@@ -6085,14 +6085,17 @@ button.close {
 .modal-footer:after {
   clear: both;
 }
+.aligncenter
 .center-block {
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
+.alignright
 .pull-right {
   float: right !important;
 }
+.alignleft,
 .pull-left {
   float: left !important;
 }

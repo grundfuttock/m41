@@ -24,28 +24,38 @@
         </header>
 
         <!-- Post Content -->
-        <article>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <article>
                         <?php the_content(); ?>
-                    </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <aside>
+                        <?php get_sidebar(); ?>
+                    </aside>
                 </div>
             </div>
-        </article>
-        <nav>
-            <ul class="pager">
-                <li><a href="#">Top</a></li>
-                <li><a href="blog.html">Index</a></li>
-            </ul>
-            <ul class="pager">
-                <li><?php previous_post_link(); ?> </li>
-                <li><?php next_post_link(); ?> </li>
-            </ul>
-        </nav>
+            <div class="row">
+                <div class="col-xs-12">
+                    <nav>
+                        <ul class="pager">
+                            <li><a href="#">Top</a></li>
+                            <li><a href="blog.html">Index</a></li>
+                        </ul>
+                        <ul class="pager">
+                            <li><?php previous_post_link(); ?> </li>
+                            <li><?php next_post_link(); ?> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
     <?php endwhile; ?>
 <?php else : ?>
     Not Found. Sorry, but you are looking for something that isn't here.
 <?php endif; ?>
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
