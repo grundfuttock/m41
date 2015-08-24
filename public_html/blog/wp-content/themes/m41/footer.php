@@ -49,8 +49,9 @@
         <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/vendor/jquery.js"></script>
         <!-- Bootstrap Core JavaScript -->
         <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/vendor/bootstrap.min.js"></script>
-        <!-- Custom Theme JavaScript -->
+        <!-- Custom Theme JavaScript --
         <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/vendor/clean-blog.min.js"></script>
+-->
         <?php wp_footer(); ?>
     </body>
 
