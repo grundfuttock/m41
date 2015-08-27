@@ -12,7 +12,7 @@
                     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                         <div class="post-heading">
                             <h2 class="post-title"><?php the_title(); ?></h2>
-                            <h2 class="subheading"></h2>
+                            <h2 class="subheading"><?php echo get_post_meta(get_the_id(),'subtitle',true) ?></h2>
                             <span class="meta">
                                 Posted in <?php the_category(' , '); ?>
                                 by <?php the_author(); ?> on <?php the_date(); ?>
