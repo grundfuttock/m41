@@ -11,7 +11,8 @@
         <title><?php wp_title('|', true, 'right'); ?></title>
 
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
-
+        <!-- CHANGE THIS IF SITE IS RELOCATED -->
+        <base href="http://localhost/m41/public_html/">
         <!-- Custom Fonts -->
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -46,28 +47,28 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="../index.shtml">M41 Ltd</a>
+                    <a class="navbar-brand" href="index.shtml">M41 Ltd</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="../index.shtml">Home</a>
+                            <a href="index.shtml">Home</a>
                         </li>
                         <li>
-                            <a href="about.shtml">About</a>
+                            <a href="pages/about.shtml">About</a>
                         </li>
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="commercial.shtml">Commercial <span class="caret"></span></a>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="pages/commercial.shtml">Commercial <span class="caret"></span></a>
                             <ul class="dropdown-menu" style="background-color:lightgrey">
-                                <li><a href="commercial.shtml"> - Commercial projects</a></li>
-                                <li><a href="consultancy.shtml"> -- Consultancy</a></li>
-                                <li><a href="implementation.shtml"> -- Implementation</a></li>
+                                <li><a href="pages/commercial.shtml"> - Commercial projects</a></li>
+                                <li><a href="pages/consultancy.shtml"> -- Consultancy</a></li>
+                                <li><a href="pages/implementation.shtml"> -- Implementation</a></li>
                             </ul>
-                        <li><a href="non-profit.shtml">Non-Profit</a></li> 
-                        <li><a href="blog.html">Blog</a></li> 
-                        <li><a href="developments.shtml">Developments</a></li>
-                        <li><a href="photogallery.shtml">Photo Gallery</a></li>
+                        <li><a href="pages/non-profit.shtml">Non-Profit</a></li> 
+                        <li><a href= <?php echo site_url() ?> > Blog</a></li> 
+                        <li><a href="pages/developments.shtml">Developments</a></li>
+                        <li><a href="pages/photogallery.shtml">Photo Gallery</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
