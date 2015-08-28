@@ -30,6 +30,13 @@
 
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+            <?php
+            if (is_admin_bar_showing()) {
+                // Make space for the admin_bar so that it doesn't overwrite menu
+                echo '<div style="min-height: 32px;"></div>';
+            }
+            ?>
+
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header page-scroll">
