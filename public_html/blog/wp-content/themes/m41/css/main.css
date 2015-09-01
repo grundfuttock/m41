@@ -4,19 +4,17 @@
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
+Copy pull-right, pull-left, etc from bootstrap.css to pick up WP assigned classes
+*/
+.aligncenter {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.alignright {
+  float: right !important;
+}
+.alignleft {
+  float: left !important;
+}

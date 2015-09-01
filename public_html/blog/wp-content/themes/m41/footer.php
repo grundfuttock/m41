@@ -46,9 +46,9 @@
         </footer>
 
         <!-- jQuery -->
-        <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/vendor/jquery.js"></script>
+        <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/vendor/jquery.min.js"></script>
         <!-- Bootstrap Core JavaScript -->
-        <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/vendor/bootstrap.min.js"></script>
+        <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/vendor/bootstrap.js"></script>
         <!-- Custom Theme JavaScript --
         <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/vendor/clean-blog.min.js"></script>
 -->

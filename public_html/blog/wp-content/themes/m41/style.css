@@ -9,7 +9,7 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 */
 @import URL ('http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic');
 @import URL ('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
-@import URL ('http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
-@import 'css/main.css';
+/*@import URL ('http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');*/
 @import 'css/bootstrap.css';
-@import 'css/clean-blog.css';
+@import 'css/clean-blog.css'; 
+@import 'css/main.css';
