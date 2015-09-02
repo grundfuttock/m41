@@ -4,24 +4,9 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--#include virtual="../includes/m41-header.html" -->
         <title>M41 - Private Developments</title>
         <meta name="description" content="M41, application development">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="tile.png">
-
-        <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
-        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="../css/main.css">
-
-        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -32,7 +17,7 @@
             <h1>Development Area</h1>
             <p>This page is the gateway for a protected development area which
                 requires login credentials.</p>
-            <a class="btn btn-lg btn-danger" href="#" role="button">Do not press this button</a>
+            <a class="btn btn-lg btn-danger" href="pages/developments.shtml" role="button">Do not press this button</a>
             
         <hr>
 
