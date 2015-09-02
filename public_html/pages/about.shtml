@@ -32,7 +32,7 @@
         <div class="container">
             <div class="jumbotron">
                 <div class="container">
-                    <img class="img-responsive" src="../img/fieldBW.jpg" alt="field with trees">
+                    <img class="img-responsive" src="img/fieldBW.jpg" alt="field with trees">
                     <h1>Why</h1>
                     <p>I have over forty years experience in the IT industry, from system level device-drivers to enterprise sales
                         through consultancy, project and line management</p>

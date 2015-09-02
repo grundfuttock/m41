@@ -58,11 +58,11 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <img src="../img/fieldBW.jpg" class="thumbnail" width="150" height="150" title="Unknown" alt="Field">
+                    <img src="img/fieldBW.jpg" class="thumbnail" width="150" height="150" title="Unknown" alt="Field">
                     <p>Unknown</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="../img/mountainsBW.jpg" class="thumbnail" width="150" height="150" title="Unknown" alt="Mountains">
+                    <img src="img/mountainsBW.jpg" class="thumbnail" width="150" height="150" title="Unknown" alt="Mountains">
                     <p>Unknown</p>
                 </div>
                 <div class="col-md-4">

@@ -42,8 +42,8 @@
                 <div class="col-xs-12">
                     <nav>
                         <ul class="pager">
-                            <li><a href="#">Top</a></li>
-                            <li><a href="blog.html">Index</a></li>
+                            <li><a href= <?php the_permalink(); ?> >Top</a></li>
+                            <li><a href= <?php echo site_url() ?>>Index</a></li>
                         </ul>
                         <ul class="pager">
                             <li><?php previous_post_link(); ?> </li>
