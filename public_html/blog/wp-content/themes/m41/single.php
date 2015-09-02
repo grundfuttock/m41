@@ -39,12 +39,6 @@
                 </div>
             </div>
             <div class="row">
-                <?php
-                    // If comments are open or we have at least one comment, load up the comment template.
-                    if (comments_open() || get_comments_number()) :
-                        comments_template();
-                    endif;
-                    ?>
                 <div class="col-xs-12">
                     <nav>
                         <ul class="pager">
@@ -56,8 +50,12 @@
                             <li><?php next_post_link(); ?> </li>
                         </ul>
                     </nav>
-
-                    
+                    <?php
+                    // If comments are open or we have at least one comment, load up the comment template.
+                    if (comments_open() || get_comments_number()) :
+                        comments_template();
+                    endif;
+                    ?>
                 </div>
             </div>
         </div> <!-- Post content Container -->
