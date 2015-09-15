@@ -19,7 +19,7 @@
 <!-- Main Content -->
 <div class="container">
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="col-lg-8 col-md-10">
             <div class="post-preview">
                 <?php if (have_posts()) : ?>
                     <?php while (have_posts()) : the_post(); ?>
@@ -29,7 +29,7 @@
                         <?php the_excerpt('Read more..'); ?>
                         <p class="post-meta">
                             Posted in <?php the_category(' , '); ?>
-                             by <?php the_author(); ?> on <?php the_date(); ?> at <?php the_time(); ?>
+                            by <?php the_author(); ?> on <?php the_date(); ?> at <?php the_time(); ?>
                         </p>
                         <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?>
                     <?php endwhile; ?>
@@ -37,9 +37,12 @@
                 <?php else : ?>
                     Not Found. Sorry, but you are looking for something that isn't here.
                 <?php endif; ?>
-                <?php get_sidebar(); ?>
-            </div>
-            <hr>
-
-            <?php get_footer(); ?>
-
+            </div> <!-- Post previews -->
+        </div> <!-- Main cols -->
+        <div class="col-lg-4">
+            <?php get_sidebar(); ?>
+        </div>
+    </div> <!--row -->
+    <hr>
+    <?php get_footer(); ?>
+</div>                   

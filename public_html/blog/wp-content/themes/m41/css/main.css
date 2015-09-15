@@ -21,6 +21,7 @@ Copy pull-right, pull-left, etc from bootstrap.css to pick up WP assigned classe
 /*
 Move the Aside (sidebar) down a bit
 */
+.sidebar,
 aside {
     margin-top: 100px;
 }
