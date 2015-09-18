@@ -26,7 +26,7 @@
     <body>
 
         <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <?php
             if (is_admin_bar_showing()) {
                 // Make space for the admin_bar so that it doesn't overwrite menu
@@ -34,10 +34,10 @@
             }
             ?>
 
-            <div class="container-fluid">
+            <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -45,29 +45,19 @@
                     </button>
                     <a class="navbar-brand" href="index.shtml">M41 Ltd</a>
                 </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="index.shtml">Home</a>
-                        </li>
-                        <li>
-                            <a href="pages/about.shtml">About</a>
-                        </li>
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="pages/commercial.shtml">Commercial <span class="caret"></span></a>
-                            <ul class="dropdown-menu" style="background-color:lightgrey">
-                                <li><a href="pages/commercial.shtml"> - Commercial projects</a></li>
-                                <li><a href="pages/consultancy.shtml"> -- Consultancy</a></li>
-                                <li><a href="pages/implementation.shtml"> -- Implementation</a></li>
-                            </ul>
-                        <li><a href="pages/non-profit.shtml">Non-Profit</a></li> 
-                        <li><a href= <?php echo site_url() ?> > Blog</a></li> 
-                        <li><a href="pages/developments.shtml">Developments</a></li>
-                        <li><a href="pages/photogallery.shtml">Photo Gallery</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
+                <!-- pick up wp_bootstrap_navwalker as custom walker
+                From https://github.com/twittem/wp-bootstrap-navwalker
+                http://stackoverflow.com/questions/25332527/convert-bootstrap-navbar-to-wordpress-menu
+                -->
+               <?php wp_nav_menu( array( 
+                    'menu_class'        => 'nav navbar-nav navbar-right',
+                    'container_class'   => 'collapse navbar-collapse',
+                    'container_id'      => 'navbar-collapse-1',
+                    'depth'             => 2,
+                    'container'         => 'div',
+                    'theme_location'    => 'header-menu',
+                    'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                    'walker'            => new wp_bootstrap_navwalker() 
+                   ) ); ?>
+            </div> <!-- /.container -->
         </nav>

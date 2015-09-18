@@ -1,4 +1,18 @@
 <?php
+/*
+ * Add support for menus
+ */
+function register_my_menu() {
+  register_nav_menus(
+    array(
+      'header-menu' => __( 'Header Menu' )
+     )
+   );
+ }
+ add_action( 'init', 'register_my_menu' );
+
+require_once('wp_bootstrap_navwalker.php'); // Register Custom Navigation Walker
+ 
 if(function_exists('register_sidebar')) register_sidebar(array('name'=>'Sidebar',));
 
 add_filter( 'wp_title', 'm41_hack_wp_title_for_home' );

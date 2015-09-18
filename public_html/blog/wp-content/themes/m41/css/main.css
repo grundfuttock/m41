@@ -5,6 +5,11 @@
    ========================================================================== */
 
 /*
+Add some padding so that the navbar dowsn't overwrite the content
+*/
+body { padding-top: 70px; }
+
+/*
 Copy pull-right, pull-left, etc from bootstrap.css to pick up WP assigned classes
 */
 .aligncenter {
