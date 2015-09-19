@@ -13,7 +13,7 @@
                             $featured_image = get_the_post_thumbnail();
                         }
                         ?>
-                            <img class="img-responsive" <?php echo ($featured_image); ?>
+                            <img class="img-responsive" <?php echo ($featured_image); ?> >
                              <h1 class="post-title"><?php the_title(); ?></h1>
                             <h2 class="subheading"><?php echo get_post_meta(get_the_id(), 'subtitle', true) ?></h2>
                     </div>
