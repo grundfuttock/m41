@@ -1,4 +1,12 @@
-AddType text/html .shtml
-AddOutputFilter INCLUDES .shtml
-DirectoryIndex index.shtml index.php
-Options +IncludesNoExec -ExecCGI
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /M41/public_html/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /M41/public_html/index.php [L]
+</IfModule>
+
+# END WordPress
