@@ -11,6 +11,12 @@
         <title><?php wp_title('|', true, 'right'); ?></title>
 
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
+        <?php
+        if(get_post_type() == 'post'){
+            $cleanblog = get_stylesheet_directory_uri() . "/css/clean-blog.css";
+            echo ("<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=  $cleanblog >");
+        }
+        ?>
         <!-- CHANGE THIS IF SITE IS RELOCATED -->
         <base href="http://localhost/m41/public_html/">
         
