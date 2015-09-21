@@ -15,11 +15,8 @@
         if(get_post_type() == 'post'){
             $cleanblog = get_stylesheet_directory_uri() . "/css/clean-blog.css";
             echo ("<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=  $cleanblog >");
-        }
-        ?>
-        <!-- CHANGE THIS IF SITE IS RELOCATED -->
-        <base href="http://localhost/m41/public_html/">
-        
+        } ?>
+
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -49,7 +46,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.shtml">M41 Ltd</a>
+                    <?php echo '<a class="navbar-brand" href="' . get_bloginfo('url'); ?>">M41 Ltd</a>
                 </div>
                 <!-- pick up wp_bootstrap_navwalker as custom walker
                 From https://github.com/twittem/wp-bootstrap-navwalker
