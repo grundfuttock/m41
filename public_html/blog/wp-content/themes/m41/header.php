@@ -14,7 +14,7 @@
         <?php
         if(get_post_type() == 'post'){
             $cleanblog = get_stylesheet_directory_uri() . "/css/clean-blog.css";
-            echo ("<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=  $cleanblog >");
+            echo ("<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"$cleanblog\" >");
         } ?>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
