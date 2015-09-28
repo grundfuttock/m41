@@ -12,7 +12,7 @@
 
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
         <?php
-        if(get_post_type() == 'post'){
+        if(get_post_type() == 'post' or is_home()){
             $cleanblog = get_stylesheet_directory_uri() . "/css/clean-blog.css";
             echo ("<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"$cleanblog\" >");
         } ?>
