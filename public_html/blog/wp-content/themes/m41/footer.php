@@ -10,12 +10,7 @@
                 </div>
             </div>
         </footer>
-
-        <!-- jQuery -->
-        <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/vendor/jquery.min.js"></script>
-        <!-- Bootstrap Core JavaScript -->
-        <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/vendor/bootstrap.js"></script>
-        <?php wp_footer(); ?>
+      <?php wp_footer(); ?>
     </body>
 
 </html>

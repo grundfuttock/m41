@@ -1,5 +1,17 @@
 <?php
 /*
+ * register and enque javascript
+ */
+function m41_theme_scripts()
+{
+    // Register the scripts
+    wp_register_script( 'bootstrap', get_template_directory_uri() . '/js/vendor/bootstrap.js',
+            array( 'jquery' ), '', true );
+    wp_enqueue_script( 'bootstrap' ); // enqueue the script:
+}
+add_action( 'wp_enqueue_scripts', 'm41_theme_scripts' );
+
+/*
  * Add support for menus
  */
 function register_my_menu() {
@@ -12,9 +24,15 @@ function register_my_menu() {
  add_action( 'init', 'register_my_menu' );
 
 require_once('wp_bootstrap_navwalker.php'); // Register Custom Navigation Walker
- 
-if(function_exists('register_sidebar')) register_sidebar(array('name'=>'Sidebar',));
-
+ /*
+  * Register a sidebar in theme
+  */
+ if (function_exists('register_sidebar')) {
+    register_sidebar(array('name' => 'Sidebar','m41'));
+}
+/*
+ * 
+ */
 add_filter( 'wp_title', 'm41_hack_wp_title_for_home' );
 function m41_hack_wp_title_for_home( $title )
 {
@@ -26,7 +44,7 @@ function m41_hack_wp_title_for_home( $title )
 
 
 /*
- * Add support for featured Image im posts
+ * Add support for featured Image in posts
  */
 add_theme_support( 'post-thumbnails' );
 // Image size for single posts 
