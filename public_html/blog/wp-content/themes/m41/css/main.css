@@ -5,24 +5,10 @@
    ========================================================================== */
 
 /*
-Add some padding so that the navbar dowsn't overwrite the content
+Add some padding so that the navbar doesn't overwrite the content
 */
 body { padding-top: 70px; }
 
-/*
-Copy pull-right, pull-left, etc from bootstrap.css to pick up WP assigned classes
-*/
-.aligncenter {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-.alignright {
-  float: right !important;
-}
-.alignleft {
-  float: left !important;
-}
 /*
 Move the Aside (sidebar) down a bit
 */
@@ -30,3 +16,13 @@ Move the Aside (sidebar) down a bit
 aside {
     margin-top: 100px;
 }
+
+/*
+* put some space round images entered in blogs with add media
+*/
+img.alignright {float:right !important; margin:0 0 1em 1em}
+img.alignleft {float:left !important; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right !important; margin:0 0 1em 1em}
+a img.alignleft {float:left !important; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
