@@ -72,7 +72,7 @@ add_image_size('single-post-thumb', 120, 120, true);
  * Add support for custom header in theme
  */
 $defaults = array(
-    'default-image' => get_template_directory_uri() . '/images/header.jpg',
+    'default-image' => get_template_directory_uri() . '/img/header.jpg',
     'width' => 920,
     'height' => 410,
     'flex-height' => false,
