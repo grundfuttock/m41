@@ -10,13 +10,6 @@
 
         <title><?php wp_title('|', true, 'right'); ?></title>
 
-        <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
-        <?php
-        if(get_post_type() == 'post' or is_home()){
-            $cleanblog = get_stylesheet_directory_uri() . "/css/clean-blog.css";
-            echo ("<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"$cleanblog\" >");
-        } ?>
-
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
